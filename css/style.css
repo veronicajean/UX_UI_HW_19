@@ -26,20 +26,6 @@ header li img {
   width: 50%;
   padding: 1%;
 }
-.heroimg {
-  background-image: url("images/hero image background.png");
-  background-color: #9ab090;
-  height: 500px;
-  padding: 25px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-}
-.profile-picture {
-  width: 28%;
-  padding: 5%;
-}
 nav {
   padding: 1%;
 }
@@ -49,13 +35,6 @@ ul {
 }
 .inline-block {
   text-align: center;
-}
-.content {
-  width: 600px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 1%;
-  color: white;
 }
 h1 {
   padding: 1%;
@@ -84,6 +63,22 @@ footer li {
   display: inline-block;
   padding: 3px;
   color: #9ab090;
+}
+.heroSection {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 50% 50%;
+  background-color: #9ab090;
+  padding: 25px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  color: #ffffff;
+}
+.profilePic {
+  width: 50%;
 }
 
 .mySkills {
@@ -142,7 +137,23 @@ h3 {
 }
 .projectInfo {
   text-align: left;
-  padding: 1%;
+  padding: 0%;
+}
+.viewMore {
+  background-color: #f6f6f6;
+  padding: 15px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.moreFormat {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+}
+.moreChild {
+  padding: 10px;
+  margin: 10px;
 }
 @media only screen and (max-width: 600) {
   body {
